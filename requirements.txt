@@ -14,5 +14,15 @@ pyarrow
 # 数据可视化
 matplotlib
 
-
+# 商业设施分析模块
+pandas
+numpy
+scipy
+matplotlib
+openpyxl
+geopandas
+shapely
+pyproj
+requests
+tqdm
 
