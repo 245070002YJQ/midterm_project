@@ -1,1 +1,18 @@
+# 数据采集与处理
+requests
+pandas
+numpy
+openpyxl
+
+# GIS空间数据处理
+geopandas
+shapely
+pyproj
+pyogrio
+pyarrow
+
+# 数据可视化
+matplotlib
+
+
 
