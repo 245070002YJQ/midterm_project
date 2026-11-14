@@ -44,7 +44,8 @@
 
 ## 4. 绿化与综合评价图表
 ### 4.1 哪座城市最适合CityWalk？——基准情景下15个新一线城市综合排名
-基准排名图：https://github.com/245070002YJQ/midterm_project/blob/main/docs/Chart1_Baseline_Ranking.png
+基准排名图：<img width="4200" height="3000" alt="Chart1_Baseline_Ranking" src="https://github.com/user-attachments/assets/34867981-1bdd-4179-9999-35ccc90224f9" />
+
 
 **图表说明**：本图展示了基于步行连通性、商业服务、交通接驳与绿化条件四个维度等权重计算下的15个新一线城市CityWalk适宜性综合得分。
 **核心结论**：宁波、青岛与重庆的综合得分位列前三，展现出极强的CityWalk优势；东莞、郑州等城市排名相对靠后。这说明这三座城市在“路网-商业-交通-绿化”的资源配置上达到了较好的均衡。
