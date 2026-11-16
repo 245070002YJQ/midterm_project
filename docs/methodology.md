@@ -8,11 +8,11 @@
 采用2020年城市建成区边界作为固定研究范围，经几何修复后，转换为WGS 84地理坐标系（EPSG:4326），通过ohsome API获取2025年末的OSM道路历史快照。
 | 参数 | 设置 |
 | --- | --- |
-| 快照时间 | `2025-12-31T23:59:59Z` |
-| 查询条件 | `highway=* and geometry:line` |
+| 快照时间 | 2025-12-31T23:59:59Z |
+| 查询条件 | highway=* and geometry:line |
 | API请求坐标系 | EPSG:4326 |
 | 分块请求初始大小 | 经度跨度0.25° × 纬度跨度0.25°，用于API分批下载 |
-| 下载时裁切设置 | `clip=False`，保留道路完整几何 |
+| 下载时裁切设置 | clip=False，保留道路完整几何 |
 | 原始文件格式 | Parquet |
 
 
@@ -21,9 +21,9 @@
 解析OSM的 tags 属性，按以下规则筛选：
 | 标签 | 处理规则 |
 | --- | --- |
-| `highway` | 保留 `footway`、`pedestrian`、`path`、`steps`、`corridor` |
-| `foot` | 排除 `no` |
-| `access` | 排除 `no`、`private` |
+| highway | 保留 `footway`、`pedestrian`、`path`、`steps`、`corridor` |
+| foot | 排除 `no` |
+| access | 排除 `no`、`private` |
 
 
 上述规则保留人行路径、步行街、小径、台阶及走廊通道，并排除明确禁止步行或限制公众进入的道路。`foot` 或 access 标签缺失时，不因其缺失而排除，但标签缺失不代表已确认允许通行。
