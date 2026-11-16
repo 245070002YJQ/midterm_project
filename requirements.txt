@@ -3,6 +3,10 @@ requests
 pandas
 numpy
 openpyxl
+json
+time
+pathlib
+shapely
 
 # GIS空间数据处理
 geopandas
